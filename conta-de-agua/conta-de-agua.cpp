@@ -3,7 +3,8 @@
 
 int main()
 {
-	int consumo, precoConta;
+	int consumo;
+	float precoConta;
 	
 	precoConta = 7;
 
@@ -29,7 +30,7 @@ int main()
 			precoConta = 167 + ((consumo - 100) * 5);
 		}
 
-	printf("\nPreco da conta: %d\n\n", precoConta);
+	printf("\nPreco da conta: R$ %.2f \n\n", precoConta);
 
 }
 
